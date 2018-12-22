@@ -1,0 +1,6 @@
+framework module CLScanCode {
+  umbrella header "CLScanCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

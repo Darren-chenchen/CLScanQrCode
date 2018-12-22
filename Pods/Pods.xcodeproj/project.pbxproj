@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F3956EBA78A5E284CA135B0B895048 /* qrcode_scan_part_net.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E75E60273DEC33A259FC3B15B93A06 /* qrcode_scan_part_net.png */; };
+		08F36835AB840F3DB6F2C21ED779841F /* BMScanDefaultCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B5EDF74BC383FD6182B8984985C4BE /* BMScanDefaultCotroller.m */; };
+		0CE069ED48B40EC08FC06D9E5A334BC0 /* CLScanCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9714E5128D016247CB2BEFEDA4949A7A /* CLScanCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F775641207768AFC5452910D033C135 /* BMScanController.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C2777FA96EBB56D9F78D2CC1AAFD93 /* BMScanController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143E5F164DB957773D8BE712B5AF2CF2 /* bm_scan_image_qr_newbarcode_light_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A50A795D1107C2914999B012E748FEF /* bm_scan_image_qr_newbarcode_light_on@2x.png */; };
+		1EBE197D933432453053D310020B2D0E /* UIImage+BMScan.h in Headers */ = {isa = PBXBuildFile; fileRef = 1609CB11DCDFA235782CFFF9E243DACB /* UIImage+BMScan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24880021B5298DB76C39929E79148FF2 /* bm_scan_image_qr_corner_003_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E34574514EA47728C93BEB5BD1A91F /* bm_scan_image_qr_corner_003_@2x.png */; };
+		2A8B8A05B5E458AB3F40673406A584E4 /* bm_scan_image_qr_scan_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 721D8A0DF0D36774D170528BBA5BEA70 /* bm_scan_image_qr_scan_line@2x.png */; };
+		34297AE519764A78FD50837265DE7C09 /* bm_scan_image_qr_newbarcode_light_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A34DCC4BCEC0B096BE49059F210898E1 /* bm_scan_image_qr_newbarcode_light_off@2x.png */; };
+		3784770082CC61D2DA2228DE941CC965 /* qrcode_scan_full_net.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB5ACE37FE2E6BC7E46A8ACB85085BA /* qrcode_scan_full_net.png */; };
+		3FDC5F12AF69F6DBAF81A46B77E3880B /* CLScanCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6361BC0EE0360027C6AB1BA60EA6C7 /* CLScanCode-dummy.m */; };
+		4D193226DE359FCDE3F724D40A6CE58B /* bm_scan_image_qr_corner_001_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB7FCAA5EF7631E6F0EDD04D3AD20C /* bm_scan_image_qr_corner_001_@2x.png */; };
+		5470B3699921CE736FE6BE02F19AF988 /* bm_scan_image_qr_corner_004_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4F6B5DC935FAE644DD04EC7F4BC1F9 /* bm_scan_image_qr_corner_004_@2x.png */; };
+		5A0A017E04F2F04F0532E0FFBC273F33 /* BMScan.h in Headers */ = {isa = PBXBuildFile; fileRef = C1AD4981554F540A4D8EF66944749DFB /* BMScan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FF62DBFD6BC18DE21AE718BEF6A4EED /* BMScanDefaultCotroller.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A16F5AABCD7F43DF42BDAFDBE9295F /* BMScanDefaultCotroller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E1CF3944BD4112BBD05FEB6339C7C29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7E45DB06F51C7843F23D330DBC15DAFA /* BMDefaultUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBE438637EE935B0AC528695048F0E2 /* BMDefaultUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DBEA204E438472312385144B8CA980B /* BMDefaultUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CC19DABA3B9C167E1D5BDE9577CF1E /* BMDefaultUIView.xib */; };
+		A033A275CAAE80A66A989C3F0A1858A7 /* BMScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E36C6F2597AA7EAF11440985D6A8E10 /* BMScanController.m */; };
+		B92AFCC1666FD1F58E419E366AFBDFDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C4A63AE3D3C60B2D97F78F8B914A8AF2 /* UIImage+BMScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B1B76DBA57710F5FDFC2154C956D07 /* UIImage+BMScan.m */; };
+		CFFBD5C23FBA61C32776E5AF5027042C /* BMDefaultUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79915D2A9E13665C63CF0295537DE7BC /* BMDefaultUIView.m */; };
+		FBF85CF189E9A886BBB4D4F1DA430CAB /* Pods-CLScanQrCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C5F53381CDA5F5372DDBF68205B5F5 /* Pods-CLScanQrCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A3074DED312133CE5DB3FAAD99F53 /* bm_scan_image_qr_corner_002_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AACDED47E01E4120F6EA6A6A0A2A8A4E /* bm_scan_image_qr_corner_002_@2x.png */; };
+		FF49EF243B4B857ABC39469184B30797 /* Pods-CLScanQrCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7511BFA3CE26951C8560A80D38CB3CF4 /* Pods-CLScanQrCode-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12806F7FBBE8081CB0FFF42B038F9ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67DA96B532205CB8BF4761397E725423;
+			remoteInfo = CLScanCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029282DF068880C08803D76DE6060D54 /* Pods-CLScanQrCode-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLScanQrCode-resources.sh"; sourceTree = "<group>"; };
+		04E9F39A775B4FD26392902F7C77D4AD /* Pods_CLScanQrCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CLScanQrCode.framework; path = "Pods-CLScanQrCode.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C5F53381CDA5F5372DDBF68205B5F5 /* Pods-CLScanQrCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLScanQrCode-umbrella.h"; sourceTree = "<group>"; };
+		1609CB11DCDFA235782CFFF9E243DACB /* UIImage+BMScan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+BMScan.h"; path = "BMScanner/Category/UIImage+BMScan.h"; sourceTree = "<group>"; };
+		18998A457F5DCC683A61E69F3413F03D /* Pods-CLScanQrCode-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLScanQrCode-frameworks.sh"; sourceTree = "<group>"; };
+		1EBB7FCAA5EF7631E6F0EDD04D3AD20C /* bm_scan_image_qr_corner_001_@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bm_scan_image_qr_corner_001_@2x.png"; path = "BMScanner/Resources/bm_scan_image_qr_corner_001_@2x.png"; sourceTree = "<group>"; };
+		2E36C6F2597AA7EAF11440985D6A8E10 /* BMScanController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMScanController.m; path = BMScanner/Cotroller/BMScanController.m; sourceTree = "<group>"; };
+		40E75A7CA39DEC10B07B513811CD24C1 /* CLScanCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLScanCode-prefix.pch"; sourceTree = "<group>"; };
+		4CBE438637EE935B0AC528695048F0E2 /* BMDefaultUIView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMDefaultUIView.h; path = BMScanner/View/BMDefaultUIView.h; sourceTree = "<group>"; };
+		5A149278693647B7C1BC81AAD0FBB629 /* Pods-CLScanQrCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLScanQrCode.debug.xcconfig"; sourceTree = "<group>"; };
+		5A50A795D1107C2914999B012E748FEF /* bm_scan_image_qr_newbarcode_light_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bm_scan_image_qr_newbarcode_light_on@2x.png"; path = "BMScanner/Resources/bm_scan_image_qr_newbarcode_light_on@2x.png"; sourceTree = "<group>"; };
+		64C2777FA96EBB56D9F78D2CC1AAFD93 /* BMScanController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMScanController.h; path = BMScanner/Cotroller/BMScanController.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		721D8A0DF0D36774D170528BBA5BEA70 /* bm_scan_image_qr_scan_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bm_scan_image_qr_scan_line@2x.png"; path = "BMScanner/Resources/bm_scan_image_qr_scan_line@2x.png"; sourceTree = "<group>"; };
+		7511BFA3CE26951C8560A80D38CB3CF4 /* Pods-CLScanQrCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLScanQrCode-dummy.m"; sourceTree = "<group>"; };
+		78B1B76DBA57710F5FDFC2154C956D07 /* UIImage+BMScan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+BMScan.m"; path = "BMScanner/Category/UIImage+BMScan.m"; sourceTree = "<group>"; };
+		79915D2A9E13665C63CF0295537DE7BC /* BMDefaultUIView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMDefaultUIView.m; path = BMScanner/View/BMDefaultUIView.m; sourceTree = "<group>"; };
+		8DB37DD41F5A6F0CC25AECB63905812B /* Pods-CLScanQrCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLScanQrCode.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E75E60273DEC33A259FC3B15B93A06 /* qrcode_scan_part_net.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = qrcode_scan_part_net.png; path = BMScanner/Resources/qrcode_scan_part_net.png; sourceTree = "<group>"; };
+		9714E5128D016247CB2BEFEDA4949A7A /* CLScanCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLScanCode-umbrella.h"; sourceTree = "<group>"; };
+		9A6361BC0EE0360027C6AB1BA60EA6C7 /* CLScanCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLScanCode-dummy.m"; sourceTree = "<group>"; };
+		A34DCC4BCEC0B096BE49059F210898E1 /* bm_scan_image_qr_newbarcode_light_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bm_scan_image_qr_newbarcode_light_off@2x.png"; path = "BMScanner/Resources/bm_scan_image_qr_newbarcode_light_off@2x.png"; sourceTree = "<group>"; };
+		A7AD18A2F229E864D3A957D5F1CA75EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96B3FADD1318A4DBEC6A0F9A8204C78 /* CLScanCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLScanCode.xcconfig; sourceTree = "<group>"; };
+		AACDED47E01E4120F6EA6A6A0A2A8A4E /* bm_scan_image_qr_corner_002_@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bm_scan_image_qr_corner_002_@2x.png"; path = "BMScanner/Resources/bm_scan_image_qr_corner_002_@2x.png"; sourceTree = "<group>"; };
+		AE4F6B5DC935FAE644DD04EC7F4BC1F9 /* bm_scan_image_qr_corner_004_@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bm_scan_image_qr_corner_004_@2x.png"; path = "BMScanner/Resources/bm_scan_image_qr_corner_004_@2x.png"; sourceTree = "<group>"; };
+		B1E34574514EA47728C93BEB5BD1A91F /* bm_scan_image_qr_corner_003_@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bm_scan_image_qr_corner_003_@2x.png"; path = "BMScanner/Resources/bm_scan_image_qr_corner_003_@2x.png"; sourceTree = "<group>"; };
+		B2CC19DABA3B9C167E1D5BDE9577CF1E /* BMDefaultUIView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BMDefaultUIView.xib; path = BMScanner/View/BMDefaultUIView.xib; sourceTree = "<group>"; };
+		B52B0698DFB8AD762469D624C7B7C3E3 /* CLScanCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CLScanCode.framework; path = CLScanCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A16F5AABCD7F43DF42BDAFDBE9295F /* BMScanDefaultCotroller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMScanDefaultCotroller.h; path = BMScanner/Cotroller/BMScanDefaultCotroller.h; sourceTree = "<group>"; };
+		B7392F866A52245E660665A1569CC150 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1AD4981554F540A4D8EF66944749DFB /* BMScan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMScan.h; path = BMScanner/Cotroller/BMScan.h; sourceTree = "<group>"; };
+		C31D427E82C5940D8CF9D56A37227A32 /* Pods-CLScanQrCode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLScanQrCode-acknowledgements.plist"; sourceTree = "<group>"; };
+		C457F75C4DF029EE04E1FBAE7EFF35D1 /* Pods-CLScanQrCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CLScanQrCode.modulemap"; sourceTree = "<group>"; };
+		DBB5ACE37FE2E6BC7E46A8ACB85085BA /* qrcode_scan_full_net.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = qrcode_scan_full_net.png; path = BMScanner/Resources/qrcode_scan_full_net.png; sourceTree = "<group>"; };
+		E4B5EDF74BC383FD6182B8984985C4BE /* BMScanDefaultCotroller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMScanDefaultCotroller.m; path = BMScanner/Cotroller/BMScanDefaultCotroller.m; sourceTree = "<group>"; };
+		EFBD6C1B811291752E334ABDC5A1057F /* Pods-CLScanQrCode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLScanQrCode-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFB0179E6C8C6E2E910AC9D45685C12F /* CLScanCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLScanCode.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68C00BE6EFA0B34B46E5FF38852A3E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1CF3944BD4112BBD05FEB6339C7C29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757B3699C691335B1A7469C70EF3117C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92AFCC1666FD1F58E419E366AFBDFDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E329169D064727052BC96ED766F62D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B52B0698DFB8AD762469D624C7B7C3E3 /* CLScanCode.framework */,
+				04E9F39A775B4FD26392902F7C77D4AD /* Pods_CLScanQrCode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3751548A0C422F6D681825DD36E5E463 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EBB7FCAA5EF7631E6F0EDD04D3AD20C /* bm_scan_image_qr_corner_001_@2x.png */,
+				AACDED47E01E4120F6EA6A6A0A2A8A4E /* bm_scan_image_qr_corner_002_@2x.png */,
+				B1E34574514EA47728C93BEB5BD1A91F /* bm_scan_image_qr_corner_003_@2x.png */,
+				AE4F6B5DC935FAE644DD04EC7F4BC1F9 /* bm_scan_image_qr_corner_004_@2x.png */,
+				A34DCC4BCEC0B096BE49059F210898E1 /* bm_scan_image_qr_newbarcode_light_off@2x.png */,
+				5A50A795D1107C2914999B012E748FEF /* bm_scan_image_qr_newbarcode_light_on@2x.png */,
+				721D8A0DF0D36774D170528BBA5BEA70 /* bm_scan_image_qr_scan_line@2x.png */,
+				B2CC19DABA3B9C167E1D5BDE9577CF1E /* BMDefaultUIView.xib */,
+				DBB5ACE37FE2E6BC7E46A8ACB85085BA /* qrcode_scan_full_net.png */,
+				93E75E60273DEC33A259FC3B15B93A06 /* qrcode_scan_part_net.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4B5AF8302CC52D5ED93A12E8B109DFF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFB0179E6C8C6E2E910AC9D45685C12F /* CLScanCode.modulemap */,
+				A96B3FADD1318A4DBEC6A0F9A8204C78 /* CLScanCode.xcconfig */,
+				9A6361BC0EE0360027C6AB1BA60EA6C7 /* CLScanCode-dummy.m */,
+				40E75A7CA39DEC10B07B513811CD24C1 /* CLScanCode-prefix.pch */,
+				9714E5128D016247CB2BEFEDA4949A7A /* CLScanCode-umbrella.h */,
+				A7AD18A2F229E864D3A957D5F1CA75EC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CLScanCode";
+			sourceTree = "<group>";
+		};
+		5DA5D4667CA0D00BA1C647E29E495597 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3898BC779F71713F41E18FE2CF54732 /* Pods-CLScanQrCode */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E45EFDCA3AA6CF5F87D5086DBD96AF68 /* Pods */,
+				0E329169D064727052BC96ED766F62D9 /* Products */,
+				5DA5D4667CA0D00BA1C647E29E495597 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC0B9B0DBCE3BBB3030F38FCFD1239F /* CLScanCode */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE438637EE935B0AC528695048F0E2 /* BMDefaultUIView.h */,
+				79915D2A9E13665C63CF0295537DE7BC /* BMDefaultUIView.m */,
+				C1AD4981554F540A4D8EF66944749DFB /* BMScan.h */,
+				64C2777FA96EBB56D9F78D2CC1AAFD93 /* BMScanController.h */,
+				2E36C6F2597AA7EAF11440985D6A8E10 /* BMScanController.m */,
+				B6A16F5AABCD7F43DF42BDAFDBE9295F /* BMScanDefaultCotroller.h */,
+				E4B5EDF74BC383FD6182B8984985C4BE /* BMScanDefaultCotroller.m */,
+				1609CB11DCDFA235782CFFF9E243DACB /* UIImage+BMScan.h */,
+				78B1B76DBA57710F5FDFC2154C956D07 /* UIImage+BMScan.m */,
+				3751548A0C422F6D681825DD36E5E463 /* Resources */,
+				4B5AF8302CC52D5ED93A12E8B109DFF7 /* Support Files */,
+			);
+			name = CLScanCode;
+			path = CLScanCode;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3898BC779F71713F41E18FE2CF54732 /* Pods-CLScanQrCode */ = {
+			isa = PBXGroup;
+			children = (
+				B7392F866A52245E660665A1569CC150 /* Info.plist */,
+				C457F75C4DF029EE04E1FBAE7EFF35D1 /* Pods-CLScanQrCode.modulemap */,
+				EFBD6C1B811291752E334ABDC5A1057F /* Pods-CLScanQrCode-acknowledgements.markdown */,
+				C31D427E82C5940D8CF9D56A37227A32 /* Pods-CLScanQrCode-acknowledgements.plist */,
+				7511BFA3CE26951C8560A80D38CB3CF4 /* Pods-CLScanQrCode-dummy.m */,
+				18998A457F5DCC683A61E69F3413F03D /* Pods-CLScanQrCode-frameworks.sh */,
+				029282DF068880C08803D76DE6060D54 /* Pods-CLScanQrCode-resources.sh */,
+				09C5F53381CDA5F5372DDBF68205B5F5 /* Pods-CLScanQrCode-umbrella.h */,
+				5A149278693647B7C1BC81AAD0FBB629 /* Pods-CLScanQrCode.debug.xcconfig */,
+				8DB37DD41F5A6F0CC25AECB63905812B /* Pods-CLScanQrCode.release.xcconfig */,
+			);
+			name = "Pods-CLScanQrCode";
+			path = "Target Support Files/Pods-CLScanQrCode";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E45EFDCA3AA6CF5F87D5086DBD96AF68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EC0B9B0DBCE3BBB3030F38FCFD1239F /* CLScanCode */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25EEE075BA5A09410AAD40911EB31A73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E45DB06F51C7843F23D330DBC15DAFA /* BMDefaultUIView.h in Headers */,
+				5A0A017E04F2F04F0532E0FFBC273F33 /* BMScan.h in Headers */,
+				0F775641207768AFC5452910D033C135 /* BMScanController.h in Headers */,
+				5FF62DBFD6BC18DE21AE718BEF6A4EED /* BMScanDefaultCotroller.h in Headers */,
+				0CE069ED48B40EC08FC06D9E5A334BC0 /* CLScanCode-umbrella.h in Headers */,
+				1EBE197D933432453053D310020B2D0E /* UIImage+BMScan.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A09DC7F2A6089085814A771026FCEB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF85CF189E9A886BBB4D4F1DA430CAB /* Pods-CLScanQrCode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67DA96B532205CB8BF4761397E725423 /* CLScanCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2516443C86030AF4EDB5C14F41C712BB /* Build configuration list for PBXNativeTarget "CLScanCode" */;
+			buildPhases = (
+				946CF28C88180AB7F06AB82A33FFEC52 /* Sources */,
+				68C00BE6EFA0B34B46E5FF38852A3E2D /* Frameworks */,
+				25EEE075BA5A09410AAD40911EB31A73 /* Headers */,
+				933ABA433C9C0322B7CB6C9AA9A091EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLScanCode;
+			productName = CLScanCode;
+			productReference = B52B0698DFB8AD762469D624C7B7C3E3 /* CLScanCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E4AE6C1D5609F993B9A2FE346C3100D /* Pods-CLScanQrCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC2156583C2662189499871C39A1B61 /* Build configuration list for PBXNativeTarget "Pods-CLScanQrCode" */;
+			buildPhases = (
+				0F76903F480AC983992D344C77206D96 /* Sources */,
+				757B3699C691335B1A7469C70EF3117C /* Frameworks */,
+				4A09DC7F2A6089085814A771026FCEB8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F5D9A20343124986FD25610953955AA /* PBXTargetDependency */,
+			);
+			name = "Pods-CLScanQrCode";
+			productName = "Pods-CLScanQrCode";
+			productReference = 04E9F39A775B4FD26392902F7C77D4AD /* Pods_CLScanQrCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0E329169D064727052BC96ED766F62D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67DA96B532205CB8BF4761397E725423 /* CLScanCode */,
+				7E4AE6C1D5609F993B9A2FE346C3100D /* Pods-CLScanQrCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		933ABA433C9C0322B7CB6C9AA9A091EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D193226DE359FCDE3F724D40A6CE58B /* bm_scan_image_qr_corner_001_@2x.png in Resources */,
+				FF3A3074DED312133CE5DB3FAAD99F53 /* bm_scan_image_qr_corner_002_@2x.png in Resources */,
+				24880021B5298DB76C39929E79148FF2 /* bm_scan_image_qr_corner_003_@2x.png in Resources */,
+				5470B3699921CE736FE6BE02F19AF988 /* bm_scan_image_qr_corner_004_@2x.png in Resources */,
+				34297AE519764A78FD50837265DE7C09 /* bm_scan_image_qr_newbarcode_light_off@2x.png in Resources */,
+				143E5F164DB957773D8BE712B5AF2CF2 /* bm_scan_image_qr_newbarcode_light_on@2x.png in Resources */,
+				2A8B8A05B5E458AB3F40673406A584E4 /* bm_scan_image_qr_scan_line@2x.png in Resources */,
+				8DBEA204E438472312385144B8CA980B /* BMDefaultUIView.xib in Resources */,
+				3784770082CC61D2DA2228DE941CC965 /* qrcode_scan_full_net.png in Resources */,
+				07F3956EBA78A5E284CA135B0B895048 /* qrcode_scan_part_net.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F76903F480AC983992D344C77206D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49EF243B4B857ABC39469184B30797 /* Pods-CLScanQrCode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946CF28C88180AB7F06AB82A33FFEC52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFBD5C23FBA61C32776E5AF5027042C /* BMDefaultUIView.m in Sources */,
+				A033A275CAAE80A66A989C3F0A1858A7 /* BMScanController.m in Sources */,
+				08F36835AB840F3DB6F2C21ED779841F /* BMScanDefaultCotroller.m in Sources */,
+				3FDC5F12AF69F6DBAF81A46B77E3880B /* CLScanCode-dummy.m in Sources */,
+				C4A63AE3D3C60B2D97F78F8B914A8AF2 /* UIImage+BMScan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F5D9A20343124986FD25610953955AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CLScanCode;
+			target = 67DA96B532205CB8BF4761397E725423 /* CLScanCode */;
+			targetProxy = 12806F7FBBE8081CB0FFF42B038F9ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E352EC81254CAA619DF599E53AD54F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96B3FADD1318A4DBEC6A0F9A8204C78 /* CLScanCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLScanCode/CLScanCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLScanCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CLScanCode/CLScanCode.modulemap";
+				PRODUCT_NAME = CLScanCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36716A0B3DFCBF5E93FC890648200E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A149278693647B7C1BC81AAD0FBB629 /* Pods-CLScanQrCode.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CLScanQrCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CLScanQrCode/Pods-CLScanQrCode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CLScanQrCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		601AFFECDFFF9DCB143332753EAA7539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96B3FADD1318A4DBEC6A0F9A8204C78 /* CLScanCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLScanCode/CLScanCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLScanCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CLScanCode/CLScanCode.modulemap";
+				PRODUCT_NAME = CLScanCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B984EA4CED35B39D018E4CC700A4E683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB37DD41F5A6F0CC25AECB63905812B /* Pods-CLScanQrCode.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CLScanQrCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CLScanQrCode/Pods-CLScanQrCode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CLScanQrCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2516443C86030AF4EDB5C14F41C712BB /* Build configuration list for PBXNativeTarget "CLScanCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601AFFECDFFF9DCB143332753EAA7539 /* Debug */,
+				1E352EC81254CAA619DF599E53AD54F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AC2156583C2662189499871C39A1B61 /* Build configuration list for PBXNativeTarget "Pods-CLScanQrCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36716A0B3DFCBF5E93FC890648200E3D /* Debug */,
+				B984EA4CED35B39D018E4CC700A4E683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
