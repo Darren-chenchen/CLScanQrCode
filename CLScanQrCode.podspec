@@ -12,7 +12,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'CLScanQrCode/CLScanQrCode/**/*.swift'
   s.resource_bundles = { 
-	'CLDialog' => ['CLScanQrCode/CLScanQrCode/Images/**/*.png','CLScanQrCode/CLScanQrCode/**/*.{xib,storyboard}','CLScanQrCode/CLScanQrCode/**/*.{lproj,strings}']
+	'CLScanQrCode' => ['CLScanQrCode/CLScanQrCode/Images/**/*.png','CLScanQrCode/CLScanQrCode/**/*.{xib,storyboard}','CLScanQrCode/CLScanQrCode/**/*.{lproj,strings}']
   }
+
+  s.dependency 'IDDialog'
 
 end

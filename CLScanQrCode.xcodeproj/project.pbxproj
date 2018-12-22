@@ -13,6 +13,31 @@
 		95B75C8721CDCB4100EAD18E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B75C8521CDCB4100EAD18E /* Main.storyboard */; };
 		95B75C8921CDCB4300EAD18E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B75C8821CDCB4300EAD18E /* Assets.xcassets */; };
 		95B75C8C21CDCB4300EAD18E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B75C8A21CDCB4300EAD18E /* LaunchScreen.storyboard */; };
+		95B75CCF21CDD30F00EAD18E /* CLScanCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B75CCD21CDD30E00EAD18E /* CLScanCodeController.swift */; };
+		95B75CED21CDD3B800EAD18E /* UIImage+BMScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B75CD621CDD3B800EAD18E /* UIImage+BMScan.m */; };
+		95B75CEE21CDD3B800EAD18E /* qrcode_scan_full_net.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CD821CDD3B800EAD18E /* qrcode_scan_full_net.png */; };
+		95B75CEF21CDD3B800EAD18E /* bm_scan_image_qr_newbarcode_light_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CD921CDD3B800EAD18E /* bm_scan_image_qr_newbarcode_light_on@2x.png */; };
+		95B75CF021CDD3B800EAD18E /* bm_scan_image_qr_corner_001_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CDA21CDD3B800EAD18E /* bm_scan_image_qr_corner_001_@2x.png */; };
+		95B75CF121CDD3B800EAD18E /* bm_scan_image_qr_newbarcode_light_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CDB21CDD3B800EAD18E /* bm_scan_image_qr_newbarcode_light_off@2x.png */; };
+		95B75CF221CDD3B800EAD18E /* bm_scan_image_qr_corner_003_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CDC21CDD3B800EAD18E /* bm_scan_image_qr_corner_003_@2x.png */; };
+		95B75CF321CDD3B800EAD18E /* bm_scan_image_qr_corner_002_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CDD21CDD3B800EAD18E /* bm_scan_image_qr_corner_002_@2x.png */; };
+		95B75CF421CDD3B800EAD18E /* qrcode_scan_part_net.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CDE21CDD3B800EAD18E /* qrcode_scan_part_net.png */; };
+		95B75CF521CDD3B800EAD18E /* bm_scan_image_qr_corner_004_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CDF21CDD3B800EAD18E /* bm_scan_image_qr_corner_004_@2x.png */; };
+		95B75CF621CDD3B800EAD18E /* bm_scan_image_qr_scan_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CE021CDD3B800EAD18E /* bm_scan_image_qr_scan_line@2x.png */; };
+		95B75CF721CDD3B800EAD18E /* BMDefaultUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B75CE221CDD3B800EAD18E /* BMDefaultUIView.m */; };
+		95B75CF821CDD3B800EAD18E /* BMDefaultUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CE321CDD3B800EAD18E /* BMDefaultUIView.xib */; };
+		95B75CF921CDD3B800EAD18E /* BMScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B75CE721CDD3B800EAD18E /* BMScanController.m */; };
+		95B75CFA21CDD3B800EAD18E /* BMScanDefaultCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B75CE921CDD3B800EAD18E /* BMScanDefaultCotroller.m */; };
+		95B75CFD21CDD9F900EAD18E /* icn_light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CFB21CDD9F900EAD18E /* icn_light@3x.png */; };
+		95B75CFE21CDD9F900EAD18E /* icn_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CFC21CDD9F900EAD18E /* icn_light@2x.png */; };
+		95B75D0121CDDA2100EAD18E /* icn_light_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75CFF21CDDA2100EAD18E /* icn_light_s@2x.png */; };
+		95B75D0221CDDA2100EAD18E /* icn_light_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75D0021CDDA2100EAD18E /* icn_light_s@3x.png */; };
+		95B75D0421CDDE1700EAD18E /* IDScanNavgationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B75D0321CDDE1700EAD18E /* IDScanNavgationView.swift */; };
+		95B75D0721CDE0A000EAD18E /* icn_back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75D0521CDE0A000EAD18E /* icn_back_white@2x.png */; };
+		95B75D0821CDE0A000EAD18E /* icn_back_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B75D0621CDE0A000EAD18E /* icn_back_white@3x.png */; };
+		95B75D0A21CDE0B900EAD18E /* BundleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B75D0921CDE0B900EAD18E /* BundleUtil.swift */; };
+		95B75D0C21CDE10300EAD18E /* LimitsTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B75D0B21CDE10300EAD18E /* LimitsTools.swift */; };
+		95B75D0E21CDE4B200EAD18E /* IDScanQrcodeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B75D0D21CDE4B200EAD18E /* IDScanQrcodeConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +50,38 @@
 		95B75C8821CDCB4300EAD18E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B75C8B21CDCB4300EAD18E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95B75C8D21CDCB4300EAD18E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B75CCD21CDD30E00EAD18E /* CLScanCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLScanCodeController.swift; sourceTree = "<group>"; };
+		95B75CCE21CDD30E00EAD18E /* CLScanQrCode-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLScanQrCode-Bridging-Header.h"; sourceTree = "<group>"; };
+		95B75CD521CDD3B800EAD18E /* UIImage+BMScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BMScan.h"; sourceTree = "<group>"; };
+		95B75CD621CDD3B800EAD18E /* UIImage+BMScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BMScan.m"; sourceTree = "<group>"; };
+		95B75CD821CDD3B800EAD18E /* qrcode_scan_full_net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcode_scan_full_net.png; sourceTree = "<group>"; };
+		95B75CD921CDD3B800EAD18E /* bm_scan_image_qr_newbarcode_light_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bm_scan_image_qr_newbarcode_light_on@2x.png"; sourceTree = "<group>"; };
+		95B75CDA21CDD3B800EAD18E /* bm_scan_image_qr_corner_001_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bm_scan_image_qr_corner_001_@2x.png"; sourceTree = "<group>"; };
+		95B75CDB21CDD3B800EAD18E /* bm_scan_image_qr_newbarcode_light_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bm_scan_image_qr_newbarcode_light_off@2x.png"; sourceTree = "<group>"; };
+		95B75CDC21CDD3B800EAD18E /* bm_scan_image_qr_corner_003_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bm_scan_image_qr_corner_003_@2x.png"; sourceTree = "<group>"; };
+		95B75CDD21CDD3B800EAD18E /* bm_scan_image_qr_corner_002_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bm_scan_image_qr_corner_002_@2x.png"; sourceTree = "<group>"; };
+		95B75CDE21CDD3B800EAD18E /* qrcode_scan_part_net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcode_scan_part_net.png; sourceTree = "<group>"; };
+		95B75CDF21CDD3B800EAD18E /* bm_scan_image_qr_corner_004_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bm_scan_image_qr_corner_004_@2x.png"; sourceTree = "<group>"; };
+		95B75CE021CDD3B800EAD18E /* bm_scan_image_qr_scan_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bm_scan_image_qr_scan_line@2x.png"; sourceTree = "<group>"; };
+		95B75CE221CDD3B800EAD18E /* BMDefaultUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDefaultUIView.m; sourceTree = "<group>"; };
+		95B75CE321CDD3B800EAD18E /* BMDefaultUIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMDefaultUIView.xib; sourceTree = "<group>"; };
+		95B75CE421CDD3B800EAD18E /* BMDefaultUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDefaultUIView.h; sourceTree = "<group>"; };
+		95B75CE621CDD3B800EAD18E /* BMScanDefaultCotroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMScanDefaultCotroller.h; sourceTree = "<group>"; };
+		95B75CE721CDD3B800EAD18E /* BMScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMScanController.m; sourceTree = "<group>"; };
+		95B75CE821CDD3B800EAD18E /* BMScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMScanController.h; sourceTree = "<group>"; };
+		95B75CE921CDD3B800EAD18E /* BMScanDefaultCotroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMScanDefaultCotroller.m; sourceTree = "<group>"; };
+		95B75CEA21CDD3B800EAD18E /* BMScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMScan.h; sourceTree = "<group>"; };
+		95B75CFB21CDD9F900EAD18E /* icn_light@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_light@3x.png"; sourceTree = "<group>"; };
+		95B75CFC21CDD9F900EAD18E /* icn_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_light@2x.png"; sourceTree = "<group>"; };
+		95B75CFF21CDDA2100EAD18E /* icn_light_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_light_s@2x.png"; sourceTree = "<group>"; };
+		95B75D0021CDDA2100EAD18E /* icn_light_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_light_s@3x.png"; sourceTree = "<group>"; };
+		95B75D0321CDDE1700EAD18E /* IDScanNavgationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDScanNavgationView.swift; sourceTree = "<group>"; };
+		95B75D0521CDE0A000EAD18E /* icn_back_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_back_white@2x.png"; sourceTree = "<group>"; };
+		95B75D0621CDE0A000EAD18E /* icn_back_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_back_white@3x.png"; sourceTree = "<group>"; };
+		95B75D0921CDE0B900EAD18E /* BundleUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleUtil.swift; sourceTree = "<group>"; };
+		95B75D0B21CDE10300EAD18E /* LimitsTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitsTools.swift; sourceTree = "<group>"; };
+		95B75D0D21CDE4B200EAD18E /* IDScanQrcodeConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDScanQrcodeConfig.swift; sourceTree = "<group>"; };
+		95B75D0F21CDE5D600EAD18E /* CLScanQrCode.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CLScanQrCode.podspec; sourceTree = "<group>"; };
 		A557B53E22C8A7F4B4E1B2F4 /* Pods-CLScanQrCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLScanQrCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLScanQrCode/Pods-CLScanQrCode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +108,7 @@
 		95B75C7521CDCB4100EAD18E = {
 			isa = PBXGroup;
 			children = (
+				95B75D0F21CDE5D600EAD18E /* CLScanQrCode.podspec */,
 				95B75C8021CDCB4100EAD18E /* CLScanQrCode */,
 				95B75C7F21CDCB4100EAD18E /* Products */,
 				C595B8AFE0F4E94602932257 /* Pods */,
@@ -69,7 +127,7 @@
 		95B75C8021CDCB4100EAD18E /* CLScanQrCode */ = {
 			isa = PBXGroup;
 			children = (
-				95B75C9321CDCD5700EAD18E /* CLScanQrCode */,
+				95B75CC621CDD2A200EAD18E /* CLScanQrCode */,
 				95B75C8121CDCB4100EAD18E /* AppDelegate.swift */,
 				95B75C8321CDCB4100EAD18E /* ViewController.swift */,
 				95B75C8521CDCB4100EAD18E /* Main.storyboard */,
@@ -80,19 +138,90 @@
 			path = CLScanQrCode;
 			sourceTree = "<group>";
 		};
-		95B75C9321CDCD5700EAD18E /* CLScanQrCode */ = {
+		95B75CC621CDD2A200EAD18E /* CLScanQrCode */ = {
 			isa = PBXGroup;
 			children = (
-				95B75C9421CDCD6100EAD18E /* Images */,
+				95B75D0D21CDE4B200EAD18E /* IDScanQrcodeConfig.swift */,
+				95B75D0B21CDE10300EAD18E /* LimitsTools.swift */,
+				95B75D0921CDE0B900EAD18E /* BundleUtil.swift */,
+				95B75D0321CDDE1700EAD18E /* IDScanNavgationView.swift */,
+				95B75CCD21CDD30E00EAD18E /* CLScanCodeController.swift */,
+				95B75CCE21CDD30E00EAD18E /* CLScanQrCode-Bridging-Header.h */,
+				95B75CD021CDD3B800EAD18E /* CLScanCode */,
+				95B75CC721CDD2B800EAD18E /* Images */,
 			);
 			path = CLScanQrCode;
 			sourceTree = "<group>";
 		};
-		95B75C9421CDCD6100EAD18E /* Images */ = {
+		95B75CC721CDD2B800EAD18E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				95B75D0521CDE0A000EAD18E /* icn_back_white@2x.png */,
+				95B75D0621CDE0A000EAD18E /* icn_back_white@3x.png */,
+				95B75CFF21CDDA2100EAD18E /* icn_light_s@2x.png */,
+				95B75D0021CDDA2100EAD18E /* icn_light_s@3x.png */,
+				95B75CFC21CDD9F900EAD18E /* icn_light@2x.png */,
+				95B75CFB21CDD9F900EAD18E /* icn_light@3x.png */,
+				95B75CD821CDD3B800EAD18E /* qrcode_scan_full_net.png */,
+				95B75CD921CDD3B800EAD18E /* bm_scan_image_qr_newbarcode_light_on@2x.png */,
+				95B75CDA21CDD3B800EAD18E /* bm_scan_image_qr_corner_001_@2x.png */,
+				95B75CDB21CDD3B800EAD18E /* bm_scan_image_qr_newbarcode_light_off@2x.png */,
+				95B75CDC21CDD3B800EAD18E /* bm_scan_image_qr_corner_003_@2x.png */,
+				95B75CDD21CDD3B800EAD18E /* bm_scan_image_qr_corner_002_@2x.png */,
+				95B75CDE21CDD3B800EAD18E /* qrcode_scan_part_net.png */,
+				95B75CDF21CDD3B800EAD18E /* bm_scan_image_qr_corner_004_@2x.png */,
+				95B75CE021CDD3B800EAD18E /* bm_scan_image_qr_scan_line@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		95B75CD021CDD3B800EAD18E /* CLScanCode */ = {
+			isa = PBXGroup;
+			children = (
+				95B75CD321CDD3B800EAD18E /* BMScanner */,
+			);
+			path = CLScanCode;
+			sourceTree = "<group>";
+		};
+		95B75CD321CDD3B800EAD18E /* BMScanner */ = {
+			isa = PBXGroup;
+			children = (
+				95B75CD421CDD3B800EAD18E /* Category */,
+				95B75CE121CDD3B800EAD18E /* View */,
+				95B75CE521CDD3B800EAD18E /* Cotroller */,
+			);
+			path = BMScanner;
+			sourceTree = "<group>";
+		};
+		95B75CD421CDD3B800EAD18E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				95B75CD521CDD3B800EAD18E /* UIImage+BMScan.h */,
+				95B75CD621CDD3B800EAD18E /* UIImage+BMScan.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		95B75CE121CDD3B800EAD18E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95B75CE221CDD3B800EAD18E /* BMDefaultUIView.m */,
+				95B75CE321CDD3B800EAD18E /* BMDefaultUIView.xib */,
+				95B75CE421CDD3B800EAD18E /* BMDefaultUIView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95B75CE521CDD3B800EAD18E /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				95B75CE621CDD3B800EAD18E /* BMScanDefaultCotroller.h */,
+				95B75CE721CDD3B800EAD18E /* BMScanController.m */,
+				95B75CE821CDD3B800EAD18E /* BMScanController.h */,
+				95B75CE921CDD3B800EAD18E /* BMScanDefaultCotroller.m */,
+				95B75CEA21CDD3B800EAD18E /* BMScan.h */,
+			);
+			path = Cotroller;
 			sourceTree = "<group>";
 		};
 		C595B8AFE0F4E94602932257 /* Pods */ = {
@@ -139,6 +268,7 @@
 				TargetAttributes = {
 					95B75C7D21CDCB4100EAD18E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -165,9 +295,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B75CF621CDD3B800EAD18E /* bm_scan_image_qr_scan_line@2x.png in Resources */,
 				95B75C8C21CDCB4300EAD18E /* LaunchScreen.storyboard in Resources */,
+				95B75D0121CDDA2100EAD18E /* icn_light_s@2x.png in Resources */,
+				95B75CF321CDD3B800EAD18E /* bm_scan_image_qr_corner_002_@2x.png in Resources */,
+				95B75CF121CDD3B800EAD18E /* bm_scan_image_qr_newbarcode_light_off@2x.png in Resources */,
+				95B75D0821CDE0A000EAD18E /* icn_back_white@3x.png in Resources */,
+				95B75CEE21CDD3B800EAD18E /* qrcode_scan_full_net.png in Resources */,
 				95B75C8921CDCB4300EAD18E /* Assets.xcassets in Resources */,
+				95B75CFE21CDD9F900EAD18E /* icn_light@2x.png in Resources */,
+				95B75D0721CDE0A000EAD18E /* icn_back_white@2x.png in Resources */,
+				95B75CF521CDD3B800EAD18E /* bm_scan_image_qr_corner_004_@2x.png in Resources */,
+				95B75D0221CDDA2100EAD18E /* icn_light_s@3x.png in Resources */,
+				95B75CF421CDD3B800EAD18E /* qrcode_scan_part_net.png in Resources */,
+				95B75CF221CDD3B800EAD18E /* bm_scan_image_qr_corner_003_@2x.png in Resources */,
+				95B75CEF21CDD3B800EAD18E /* bm_scan_image_qr_newbarcode_light_on@2x.png in Resources */,
+				95B75CF821CDD3B800EAD18E /* BMDefaultUIView.xib in Resources */,
+				95B75CF021CDD3B800EAD18E /* bm_scan_image_qr_corner_001_@2x.png in Resources */,
 				95B75C8721CDCB4100EAD18E /* Main.storyboard in Resources */,
+				95B75CFD21CDD9F900EAD18E /* icn_light@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,11 +342,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CLScanQrCode/Pods-CLScanQrCode-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CLScanCode/CLScanCode.framework",
+				"${BUILT_PRODUCTS_DIR}/IDDialog/IDDialog.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLScanCode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDDialog.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -232,8 +378,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B75CF721CDD3B800EAD18E /* BMDefaultUIView.m in Sources */,
+				95B75D0C21CDE10300EAD18E /* LimitsTools.swift in Sources */,
+				95B75CF921CDD3B800EAD18E /* BMScanController.m in Sources */,
+				95B75D0E21CDE4B200EAD18E /* IDScanQrcodeConfig.swift in Sources */,
+				95B75D0A21CDE0B900EAD18E /* BundleUtil.swift in Sources */,
 				95B75C8421CDCB4100EAD18E /* ViewController.swift in Sources */,
 				95B75C8221CDCB4100EAD18E /* AppDelegate.swift in Sources */,
+				95B75CCF21CDD30F00EAD18E /* CLScanCodeController.swift in Sources */,
+				95B75CFA21CDD3B800EAD18E /* BMScanDefaultCotroller.m in Sources */,
+				95B75D0421CDDE1700EAD18E /* IDScanNavgationView.swift in Sources */,
+				95B75CED21CDD3B800EAD18E /* UIImage+BMScan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +535,7 @@
 			baseConfigurationReference = 697F061BC86033F31E482C75 /* Pods-CLScanQrCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MB49F9C6PJ;
 				INFOPLIST_FILE = CLScanQrCode/Info.plist;
@@ -390,6 +546,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hd.CLScanQrCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CLScanQrCode/CLScanQrCode/CLScanQrCode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -400,6 +558,7 @@
 			baseConfigurationReference = A557B53E22C8A7F4B4E1B2F4 /* Pods-CLScanQrCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MB49F9C6PJ;
 				INFOPLIST_FILE = CLScanQrCode/Info.plist;
@@ -410,6 +569,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hd.CLScanQrCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CLScanQrCode/CLScanQrCode/CLScanQrCode-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

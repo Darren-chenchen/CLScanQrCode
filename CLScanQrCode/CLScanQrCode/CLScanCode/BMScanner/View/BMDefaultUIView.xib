@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -17,25 +17,14 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lte-sn-xPA">
                     <rect key="frame" x="0.0" y="0.0" width="425" height="200"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请把二维码/条形码置于取景框内" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObP-cI-KPg">
-                            <rect key="frame" x="117" y="174" width="191" height="16"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="bottom" secondItem="ObP-cI-KPg" secondAttribute="bottom" constant="10" id="cPC-Vk-8Bp"/>
-                    </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W3f-XK-ivd">
-                    <rect key="frame" x="0.0" y="200" width="128" height="170"/>
+                    <rect key="frame" x="0.0" y="200" width="127.5" height="170"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7lX-VU-cyr" userLabel="ARVIEW">
-                    <rect key="frame" x="128" y="200" width="170" height="170"/>
+                    <rect key="frame" x="127.5" y="200" width="170" height="170"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bcR-iT-lXF">
                             <rect key="frame" x="140" y="0.0" width="30" height="30"/>
@@ -92,21 +81,41 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MMB-e5-tFb">
-                    <rect key="frame" x="298" y="200" width="127" height="170"/>
+                    <rect key="frame" x="297.5" y="200" width="127.5" height="170"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rln-yl-tMR">
                     <rect key="frame" x="0.0" y="370" width="425" height="215"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="将二维码/条码放入框内，即可自动扫描" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObP-cI-KPg">
+                            <rect key="frame" x="97.5" y="12" width="230" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEt-Ux-XXm">
+                            <rect key="frame" x="185" y="81" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="BwN-Ud-Xjq"/>
+                                <constraint firstAttribute="width" constant="55" id="DvG-Py-58T"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <inset key="titleEdgeInsets" minX="-21" minY="47" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="13" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="轻触关闭" image="icn_light.png"/>
+                            <state key="selected" title="轻触关闭" image="icn_light_s.png"/>
+                            <connections>
+                                <action selector="openLightButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="xhd-kL-ZQ0"/>
+                            </connections>
+                        </button>
+                    </subviews>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="uEt-Ux-XXm" firstAttribute="centerX" secondItem="ObP-cI-KPg" secondAttribute="centerX" id="H13-R8-XrQ"/>
+                        <constraint firstItem="uEt-Ux-XXm" firstAttribute="top" secondItem="ObP-cI-KPg" secondAttribute="bottom" constant="53" id="Ukt-1E-j47"/>
+                        <constraint firstItem="ObP-cI-KPg" firstAttribute="top" secondItem="rln-yl-tMR" secondAttribute="top" constant="12" id="WSb-8b-Leh"/>
+                    </constraints>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEt-Ux-XXm">
-                    <rect key="frame" x="198" y="330" width="30" height="30"/>
-                    <state key="normal" image="bm_scan_image_qr_newbarcode_light_off.png"/>
-                    <state key="selected" image="bm_scan_image_qr_newbarcode_light_on.png"/>
-                    <connections>
-                        <action selector="openLightButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="xhd-kL-ZQ0"/>
-                    </connections>
-                </button>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -114,21 +123,19 @@
                 <constraint firstAttribute="trailing" secondItem="MMB-e5-tFb" secondAttribute="trailing" id="4S8-fg-3aC"/>
                 <constraint firstAttribute="bottom" secondItem="rln-yl-tMR" secondAttribute="bottom" id="4p0-Lk-n4x"/>
                 <constraint firstItem="rln-yl-tMR" firstAttribute="top" secondItem="MMB-e5-tFb" secondAttribute="bottom" id="AWH-Io-TBO"/>
-                <constraint firstItem="uEt-Ux-XXm" firstAttribute="centerX" secondItem="7lX-VU-cyr" secondAttribute="centerX" id="DOL-WV-Fg5"/>
                 <constraint firstItem="7lX-VU-cyr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" priority="999" constant="127.5" id="E5A-v1-5gX"/>
                 <constraint firstItem="Lte-sn-xPA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="G8F-KY-yX0"/>
                 <constraint firstAttribute="trailing" secondItem="rln-yl-tMR" secondAttribute="trailing" id="HKY-D3-Oqa"/>
                 <constraint firstItem="7lX-VU-cyr" firstAttribute="top" secondItem="Lte-sn-xPA" secondAttribute="bottom" id="I88-j0-tza"/>
                 <constraint firstItem="W3f-XK-ivd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IWl-yI-Jc3"/>
+                <constraint firstItem="ObP-cI-KPg" firstAttribute="centerX" secondItem="7lX-VU-cyr" secondAttribute="centerX" id="NcD-V9-uR4"/>
                 <constraint firstAttribute="trailing" secondItem="Lte-sn-xPA" secondAttribute="trailing" id="TJH-mx-38q"/>
                 <constraint firstItem="7lX-VU-cyr" firstAttribute="leading" secondItem="W3f-XK-ivd" secondAttribute="trailing" id="b8y-K7-yeO"/>
-                <constraint firstItem="rln-yl-tMR" firstAttribute="top" secondItem="uEt-Ux-XXm" secondAttribute="bottom" constant="10" id="bTY-Vx-lnP"/>
                 <constraint firstItem="rln-yl-tMR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fbP-FU-xr9"/>
                 <constraint firstItem="MMB-e5-tFb" firstAttribute="leading" secondItem="7lX-VU-cyr" secondAttribute="trailing" id="gCp-Dh-cr8"/>
                 <constraint firstItem="rln-yl-tMR" firstAttribute="top" secondItem="7lX-VU-cyr" secondAttribute="bottom" id="hkC-LX-RO6"/>
                 <constraint firstItem="rln-yl-tMR" firstAttribute="top" secondItem="W3f-XK-ivd" secondAttribute="bottom" id="hqU-u6-trA"/>
                 <constraint firstItem="Lte-sn-xPA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="mQ3-tB-RvD"/>
-                <constraint firstItem="7lX-VU-cyr" firstAttribute="centerX" secondItem="ObP-cI-KPg" secondAttribute="centerX" id="n50-h7-Mb2"/>
                 <constraint firstItem="W3f-XK-ivd" firstAttribute="top" secondItem="Lte-sn-xPA" secondAttribute="bottom" id="pXn-QY-WXf"/>
                 <constraint firstItem="7lX-VU-cyr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" priority="999" constant="200" id="rhg-yj-uoB"/>
                 <constraint firstItem="MMB-e5-tFb" firstAttribute="top" secondItem="Lte-sn-xPA" secondAttribute="bottom" id="ucr-50-OJo"/>
@@ -146,7 +153,6 @@
                 <outlet property="scanTitleLabel" destination="ObP-cI-KPg" id="jmy-RD-g8L"/>
                 <outlet property="scanfAreaView" destination="7lX-VU-cyr" id="8On-dM-jfg"/>
                 <outlet property="scanfLinView" destination="f4m-rZ-ncV" id="z6W-ga-5Je"/>
-                <outlet property="titleLabelBottonLayoutConstraint" destination="cPC-Vk-8Bp" id="NSu-6R-LDo"/>
                 <outlet property="topLayoutConstraint" destination="rhg-yj-uoB" id="Dgy-qR-vdV"/>
                 <outlet property="widthLayoutConstraint" destination="VRX-tN-YN0" id="2jI-Ba-eJe"/>
                 <outletCollection property="backgroundViewArray" destination="rln-yl-tMR" id="LfP-zO-WZ7"/>
@@ -158,11 +164,11 @@
                 <outletCollection property="feetViewArray" destination="WGC-j1-NOh" id="dgq-IN-hzW"/>
                 <outletCollection property="feetViewArray" destination="Vgo-nM-Kla" id="3Ia-cg-Bxp"/>
             </connections>
-            <point key="canvasLocation" x="-4572" y="-47"/>
+            <point key="canvasLocation" x="-4572" y="-47.226386806596707"/>
         </view>
     </objects>
     <resources>
-        <image name="bm_scan_image_qr_newbarcode_light_off.png" width="30" height="30"/>
-        <image name="bm_scan_image_qr_newbarcode_light_on.png" width="30" height="30"/>
+        <image name="icn_light.png" width="24" height="24"/>
+        <image name="icn_light_s.png" width="24" height="24"/>
     </resources>
 </document>

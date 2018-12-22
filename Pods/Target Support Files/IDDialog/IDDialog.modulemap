@@ -1,0 +1,6 @@
+framework module IDDialog {
+  umbrella header "IDDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}
